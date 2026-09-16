@@ -1,0 +1,41 @@
+a = 10
+b = 5
+print(a + b)
+
+
+a = 10
+b = 5
+print(a - b)
+
+
+a = 10
+b = 5
+print(a * b)
+
+a = 10
+b = 5
+print(a / b)
+
+a = 10
+b = 3
+
+# Addition
+print("Addition:", a + b)
+
+# Subtraction
+print("Subtraction:", a - b)
+
+# Multiplication
+print("Multiplication:", a * b)
+
+# Division
+print("Division:", a / b)
+
+# Floor Division
+print("Floor Division:", a // b)
+
+# Modulus (Remainder)
+print("Remainder:", a % b)
+
+# Power
+print("Power:", a ** b)
