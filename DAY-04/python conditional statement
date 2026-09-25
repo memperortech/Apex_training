@@ -1,0 +1,136 @@
+#If statement:
+a = 33
+b = 200
+if b > a:
+       print("b is greater than a")
+#else:
+
+a = 200
+b = 20
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+#Python nested IF statements:
+
+
+var = 100
+if var < 200:
+   print ("Expression value is less than 200")
+   if var == 150:
+      print ("Which is 150")
+   elif var == 100:
+      print ("Which is 100")
+   elif var == 50:
+      print ("Which is 50")
+   elif var < 50:
+      print ("Expression value is less than 50")
+else:
+   print ("Could not find true expression")
+
+print ("Good bye!")
+
+
+#Loops:
+
+#while Loop Statements:
+
+count = 0
+while (count < 9):
+      print ('The count is:', count)
+      count = count + 1
+print ("Good bye!")
+
+count = 0
+while count < 7:
+      print (count, " is less than 7")
+      count = count + 1
+else:
+      print (“Loop End")
+
+#for loop:
+
+
+for i in range(0 ,30, 3):
+ print(i)
+for i in range(0 ,50, 5):
+  print(i)
+
+#Loop Control Statements:
+
+#Break / Continue statement:
+
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+
+#continue:
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+#Pass statement:
+
+
+for i in range(1,6):
+  pass
+print("completed loop")
+
+#Python format() Method:
+
+
+#swapping:
+
+x = int(input("Enter value of x: "))
+y = int(input("Enter value of y: "))
+temp = x
+x = y
+y = temp
+print("The value of x after swapping: {}".format(x))
+
+#Old String formate:
+
+
+name = "John"
+print("Hello, %s!" % name)
+
+#new string formate:
+
+name = "John"
+age = 23
+print("My name is {} and I am {} years old.".format(name, age))
+
+
+# Python program to do arithmetical operations:
+
+num1 = int(input('Enter first number: '))  
+num2 = int(input('Enter second number: ')) 
+  
+# Add two numbers  
+sum = float(num1) + float(num2)  
+# Subtract two numbers  
+min = float(num1) - float(num2)  
+# Multiply two numbers  
+mul = float(num1) * float(num2)  
+#Divide two numbers  
+div = float(num1) / float(num2)  
+ print("The value of y after swapping: {}".format(y))
+
+#Python Program to check if a Number is Positive, Negative or Zero:
+
+
+num = float(input("Enter a number: "))
+
+if num > 0:
+    print("{0} is a positive number".format(num))
+elif num == 0:
+    print("{0} is zero".format(num))
+else:
+    print("{0} is negative number".format(num))
+
