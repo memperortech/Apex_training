@@ -14,3 +14,10 @@ class Employee:
 
 emp = Employee("jega", 23, 20010, "Male")
 emp.employee_details()
+
+
+output:
+Name of employee is: jega
+Age of employee is: 23
+Salary of employee is: 20010
+Gender of employee is: Male
